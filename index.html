@@ -30,11 +30,19 @@
                     <label for="pickup-place">Pickup Place</label>
                     <select id="pickup_place">
                         <option value="" selected="selected">select</option>
+                        <option value="office">Taxi Office</option>
+                        <option value="townhall">Town Hall</option>
+                        <option value="telepathy">We'll Guess</option>
                     </select>
-                    
                 </div>
+                <div class="input-group">
+                    <label for="dropoff">Dropoff Place</label>
+                    <input type="text" id="dropoff" list="destinations">
+                    <datalist id="destinations">
+                        <option value="Airport"></option>
 
-                    <label for="drop">Dropoff Place</label>
+                    </datalist>
+
                 </div>
             </div>
         </div>
