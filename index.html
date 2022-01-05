@@ -46,15 +46,42 @@
                 </div>
             </div>
             <div class="column">
-                <fieldset>
-                    
+                <fieldset class="taxi">
+                    <legend>Which taxi do you require?</legend>
+                    <label>
+                        <input type="radio" id="taxi_car" value="car">
+                        Car
+                    </label>
+                    <label> 
+                        <input type="radio" id="taxi_van" value="van">
+                        Van
+                    </label>
+                    <label>
+                        <input type="radio" id="taxi_tuk" value="tuk">
+                        Tuk Tuk
+                    </label>
                 </fieldset>
 
+                <fieldset class="extras">
+                    <legend>Extras</legend>
+                    <label>
+                        <input type="checkbox" id="extras_baby" value="baby">
+                        Baby Seat
+                    </label>
+                    <label>
+                        <input type="checkbox" id="extras_wheel" value="wheelchair">
+                        Wheelchair Access
+                    </label>
+                    <label>
+                        <input type="checkbox" id="extras_tip" value="tip">
+                        Stock Tip
+                    </label>
+                </fieldset>
             </div>
         </div>
-        <div class="options">
-
-        </div>
+            <div class="row">
+                <button>Submit Booking</button>
+            </div>
     </form>
 
 </body>
