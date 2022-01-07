@@ -23,8 +23,17 @@
                     <input type="email" id="email_address">
                 </div>
                 <div class="input-group">
-                    <label for="pickup">Pickup Place</label>
-                    
+                    <label for="pickup_time">Pickup Date/Time</label>
+                    <input type="datetime-local" id="pickup_time">
+                </div>
+                <div class="input-group">
+                    <label for="pickup_place">Pickup Place</label>
+                    <select id="pickup_place">
+                        <option value="" selected="selected">Select One</option>
+                        <option value="office">Taxi Office</option>
+                        <option value="town_hall">Town Hall</option>
+                        <option value="telepathy">We'll guess</option>
+                    </select>
                 </div>
 
 
