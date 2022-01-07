@@ -38,8 +38,22 @@
                 <div class="input-group">
                     <label for="dropoff_place">Dropoff Place</label>
                     <input type="text" id="dropoff_place">
+                
+                    <datalist id="destinations">
+                        <option value="Airport"></option>
+                        <option value="Beacg"></option>
+                        <option value="Fred"></option>
+                    </datalist>
                 </div>
+                <div class="column">
+                    <fieldset class="taxi">
+                        <legend>Which taxi do you require?</legend>
+                        <label><input type="radio" id="taxi_car" value="car"> Car</label>
+                        <label><input type="radio" id="taxi_van" value="van"> Van</label>
+                        <label><input type="radio" id="taxi_tuk" value="tuktuk"> Tuk Tuk</label>
 
+                    </fieldset>
+                </div>
 
             </div>
         </div>
