@@ -25,3 +25,26 @@
     margin-right: 1em;
     padding: .5em 0;
 }
+
+.myForm input,
+.myForm select {
+    flex: 6;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+.myForm button {
+    padding: 1em;
+    background: grey;
+    border: 0;
+    color: white;
+}
+
+.myForm fieldset {
+    border: 0;
+}
+
+.taxi > label,
+.extras > label {
+    display: block;
+}
